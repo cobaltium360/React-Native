@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "fr_fn",
-    "slug": "fr_fn",
+    "name": "random-fn",
+    "slug": "random-fn",
     "version": "1.0.0",
+    "owner": "cobaltium360",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rf.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coblatium360.randomfn"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.coblatium360.randomfn"
     },
     "web": {
       "favicon": "./assets/favicon.png"
